@@ -7,7 +7,7 @@ const cookieParser= require("cookie-parser");
 const app= express();
 const port= process.env.PORT || 3000;
 
-connectDb(); // DB 접속
+connectDb(); // DB 접속.
 
 app.use(expressLayout);
 app.set("view engine", "ejs"); // view engine은 ejs를 사용
